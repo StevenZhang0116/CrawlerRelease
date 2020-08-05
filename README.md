@@ -4,7 +4,7 @@ An organized and embedded module to scrap information and download pdfs from the
 
 The program's functionalities are listed in the following: 
 
-# help
+## help
         show this page.
 
 # show config 
