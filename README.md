@@ -1,6 +1,6 @@
 # crawler_release
 
-An organized and embedded module to scrap information and download pdfs from the ScienceDirect. Supports multithreading works and improves the databases' stability and connectivity (generate unique identifiers to show the state of data). Implements clear and concise APIs and shows understandable outputs. Also, the program is easily extendable to other websites in case of need by modifying the keyword_searcher.py file. Store downloaded PDFs in _cfg.type_blob format
+An organized and embedded module to scrap information and download pdfs from the ScienceDirect. Supports multithreading works and improves the databases' stability and connectivity(db_handler.py). Generate unique identifiers to show the data's state (DateTime.now().getTicks()). Implements clear and concise APIs and shows understandable outputs. Also, the program is easily extendable to other websites in case of need by modifying the keyword_searcher.py file. Store downloaded PDFs in _cfg.type_blob format and save into the database. Use cross-join to store detailed information of authors. 
 
 The program's functionalities are listed in the following: 
 
